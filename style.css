@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    font-family: "Montserrat";
+    color: white;
+    background-color: black;
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    padding: 0.5rem;
+}
+.sidebar{
+    width: 340px;
+    height: 100vh;
+    background-color: black;
+    border-radius: 16px;
+    margin-left: 0.5rem;
+}
+.main-content{
+    background-color: black;
+    flex:1;
+    height: 100vh;
+    overflow: auto;
+    border-radius: 16px;
+}
+.music-player{
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    height: 70px;
+    width: 100vw;
+}
+.nav{
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    flex-direction: column;
+    height: 100px;
+    padding:0.5rem 0.7rem;
+    margin-left:2px;
+    margin-top: 4px;
+}
+a{
+    text-decoration: none;
+}
+.nav i {
+    font-size:1.5rem;
+}
+.nav a{
+    font-size: 1rem;
+    color: white;
+    margin-left: 1rem;
+}
+.nav-option{
+    line-height: 2.8rem;
+    opacity: 0.7;
+}
+.nav-option:hover{
+    opacity: 1;
+}
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    padding:0.5rem 0.7rem;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lib-options img{
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.lib-options i {
+    font-size:1.5rem;
+    
+}
+.lib-options a{
+    color: white;
+    margin-left: 1rem;
+}
+.lib-options{
+    line-height: 2.8rem;
+    opacity: 0.7;
+}
+.lib-options:hover{
+    opacity: 1;
+}   
+
+.icons{
+    font-size: 1.25rem;
+    display: flex;
+}
+.icons i{
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+.icons i:hover{
+    opacity: 1;
+}
+
+.box{
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 0.75rem;
+    margin: 0.5rem 0 0.5rem 0;
+    padding :0.5rem 1rem;
+}
+.box-p1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.box-p2{
+    font-size: 0.75rem;
+    opacity: 0.9;
+}
+.badge{
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    height: 2rem;
+}
